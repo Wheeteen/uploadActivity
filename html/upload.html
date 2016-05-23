@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>广州展览</title>
+	<link rel="stylesheet" href="../css/common.css" type="text/css">
+	<link rel="stylesheet" href="../css/upload.css" type="text/css">
+	<script src='../js/jquery-2.1.4.min.js'></script>
+	<script type="text/javascript" src='../js/username.js'></script>
+	<script type="text/javascript" src='../js/upload.js'></script>
+	
+</head>
+<body>
+	<div class="search">
+  		<div class="search_wrapper">
+  			<div class="close-s">×</div>
+  			<div class="s-align">
+				<input type="text" placeholder='搜索' class='search_text'/>
+				<button type='button' class="img_search"></button>
+  			</div>
+  		</div>
+  	</div>
+	<div class="header">
+	  <div class="header-wrapper">
+		<div class="g_container">
+			<div class="logo">
+				<span><a href="first.html"><img src="../img/222.png" alt="" /></a></span>
+			</div>
+			<div class="register">
+				<div class="have-login">
+			    	<img src="../img/name.png" alt="" />
+			    	<!-- 商家的 -->
+			    	<div class="message busi_mes">
+			    		<li class="pic_name"><a href="#">我的资料</a></li>
+			    		<li class="favorite"><a href="#">我的收藏</a></li>
+			    		<li class='add-acti'><a href="#">上传活动</a></li>
+			    		<li class="exit"><a href="logout.php">退出登录</a></li>
+			    	</div>
+			    </div>
+			</div>
+			<div class="span">|</div>
+			<div class="search_button">
+			</div>
+			<ul class='nav'>
+				<li><a href="exhibition.html">展览</a></li>
+				<li><a href="gongyi.html">公益</a></li>
+				<li><a href="lecture.html">讲座</a></li>
+				<li><a href="recommend.html">精选</a></li>
+			</ul>
+	    </div>
+	  </div>
+	</div>
+	<div class="main">
+		<div class="g_container">
+			<div class="left_w container">
+				<div class="inner_w">
+					<div class="circle">
+						<a href="#" class="add_click">+</a>
+					</div>
+					<p class="add_p">上传活动</p>
+				</div>
+			</div>
+			<div class="middle_w container">
+				<div class="inner_w c_w">
+					<img src="" alt="" class='partImg1'/>
+					<div class="tip">
+						<p class='Type1'></p>
+						<p class="sum">共<span class='Count1'></span>张</p>
+					</div>
+				</div>
+				<div class="result">
+					审核中
+				</div>
+			</div>
+			<div class="right_w container">
+				<div class="inner_w c_w">
+					<img src="" alt="" class='partImg2' />
+					<div class="tip">
+						<p class='Type2'></p>
+						<p class="sum">共<span class='Count2'></span>张</p>
+					</div>
+				</div>
+				<div class="result">
+					审核中
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="open">
+	  <div class="g_container">
+		<div class="close_cha">
+	        <a href="#" class="wrong">×</a>
+	    </div>
+	    <form enctype="multipart/form-data">
+	    	<div class="upload_div">
+		    	<h2>上传图片</h2>	
+		    	<ul class="picture">
+		    		<li class='add_pic01'>
+                        <a href="">+</a>
+		    			<input type='file' name='upload_pic' id='file1'/>
+		    			
+		    		</li>
+		    		<li class='add_pic02'>
+		    			 <a href="">+</a>
+		    			<input type='file' name='upload_pic' id='file2'/>
+		    			
+		    		</li>
+		    		<li class='add_pic03'>
+		    			 <a href="">+</a>
+		    			<input type='file' name='upload_pic' id='file3'/>
+		    			
+		    		</li>
+		    		<li class='add_pic04'>
+		    			 <a href="">+</a>
+		    			<input type='file' name='upload_pic' id='file4'/>
+		    			
+		    		</li>
+		    	</ul>
+		    	<div class="tip_pic"></div>
+		    	<h2>类别</h2>
+		    	<ul class="select">
+		    		<li><input type='radio' name='select_type' checked='checked' value='展览'/> <label>展览</label></li>
+		    		<li><input type='radio' name='select_type' value='公益'/> <label>公益</label></li>
+		    		<li><input type='radio' name='select_type' value='讲座'/> <label>讲座</label></li>
+		    	</ul>
+		    	<div class="topic">
+		    		<span><input type="text" placeholder='主题' class="topic_text" /></span>
+		    		<span class="tipTopic"></span>
+		    	</div>
+		    	
+		    	<div class="instruct">
+		    		<textarea name=""  class='explain' placeholder='文字说明......'></textarea>
+		    		<div class="tip_tarea"></div>
+		    	</div>
+		    	<div class="announce">
+		    		<input type="button" value='发布' class='btn_sure' />
+		    	</div>
+		    	
+		    </div>
+	    </form>
+	  </div>
+	</div>
+	<!-- 搜索结果 -->
+	<div class="search_result">
+		<!-- 搜索的内容 -->
+		<div class="s_content">
+			<div class="g_container"></div>
+		</div>
+		<!-- 点击查看详细弹出的框 -->
+		<div class="s-detail">
+			<div class="detail-wrapper">
+				<div class="close-s">×</div>
+				<div class="main_detail">
+				</div>
+			</div>
+		</div>
+	</div>
+	<input type="hidden"  class='change'/>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>广州展览</title>
+	<link rel="stylesheet" href="../css/exhibition.css" type="text/css" />
+	<link rel="stylesheet" href="../css/common.css" type="text/css" />
+	<script src='../js/jquery-2.1.4.min.js'></script>
+	<script type="text/javascript" src='../js/username.js'></script>
+	<script type="text/javascript" src="../js/exhibition.js"></script>
+</head>
+<body>
+	<div class="search">
+  		<div class="search_wrapper">
+  			<div class="close-s">×</div>
+  			<div class="s-align">
+  				<form action="">
+  					<input type="text" placeholder='搜索' class="search_text" />
+  					<button type='button' class="img_search"></button>
+  				</form>
+  			</div>
+  		</div>
+  	</div>
+	<div class="header">
+	  <div class="header-wrapper">
+		<div class="g_container">
+			<div class="logo">
+				<span><a href="first.html"><img src="../img/222.png" alt="" /></a></span>
+			</div>
+			<div class="register">
+				<div class="click_reg">
+				  <a href="#" class="enter">登录</a>
+				</div>
+				<div class="have-login">
+			    	<img src="../img/name.png" alt="" />
+			    	<!-- 用户的 -->
+			    	<div class="message user_mes">
+			    		<li class="pic_name"><a href="#">我的资料</a></li>
+			    		<li class="favorite"><a href="#">我的收藏</a></li>
+			    		<li class="exit"><a href="logout.php">退出登录</a></li>
+			    	</div>
+			    	<!-- 商家的 -->
+			    	<div class="message busi_mes">
+			    		<li class="pic_name"><a href="#">我的资料</a></li>
+			    		<li class="favorite"><a href="#">我的收藏</a></li>
+			    		<li class='add-acti'><a href="#">上传活动</a></li>
+			    		<li class="exit"><a href="logout.php">退出登录</a></li>
+			    	</div>
+			    </div>
+			</div>
+			<div class="span">|</div>
+			<div class="search_button">
+			</div>
+			<ul class='nav'>
+				<li><a href="exhibition.html" class='active'>展览</a></li>
+				<li><a href="gongyi.html">公益</a></li>
+				<li><a href="lecture.html">讲座</a></li>
+				<li><a href="recommend.html">精选</a></li>
+			</ul>
+	    </div>
+	  </div>
+	</div>
+	<div class="banner">
+		<div class="g_container">
+			<img src="../img/b_exhibition.png" alt="" />
+		</div>
+	</div>
+	<div class="video">
+			<div class="g_container">
+				<div class="video01">
+					<img src="../img/ban_1.png" alt="" />
+				</div>
+				<div class="video02">
+					<img src="../img/san.png" alt="" />
+					<ul>
+						<li class="type01">个展</li>
+						<li class="type02">雕塑</li>
+						<li class="type03">摄影</li>
+						<li class="type04">书画</li>
+					</ul>
+				</div>	
+			</div>
+	</div>
+	<div class="content">
+		<div class="g_container">
+		</div>
+	</div>
+	<!-- 点击查看详细弹出的框 -->
+	<div class="detail">
+		<div class="detail-wrapper">
+			<div class="close-s">×</div>
+			<div class="main_detail">
+			</div>
+		</div>
+	</div>
+	<!-- 弹出的登录注册框 -->
+	<div class="s_register alert">
+	    <div class="close">
+	        <a href="#" class="cha">×</a>
+	    </div>
+	    <ul>
+	    	<li><a href="#" class="click_log">登录</a></li>
+	    	<li><a href="#">|</a></li>
+	    	<li><a href="#" class='click_rt'>注册</a></li>
+	    </ul>
+	    <!-- 登录框，登录界面 -->
+	    <form>
+	    	<div class="user_frame">
+	    		<div class="u_name">
+			       <input type="text" value=""placeholder="用户名" name='username' class="user"/>
+			    </div>
+			    <!-- 提示用户名为空 -->
+			    <div class="exist_name user01">
+			    	
+			    </div>
+			    <div class="u_pwd">
+			       <input type="password" value="" placeholder="密码" class="password" name="password"/>
+			    </div>
+	    		<!-- 提示密码不能为空 -->
+	    		<div class="exist_name pwd01"></div>
+			    <div class="r_pwd">
+		          <input type="checkbox" class="checkbox" value="1" name="keep"/>
+		          <label>保持登录</label>
+		        </div>
+                <div class="forget_pwd">
+			        <a href="#" class="fget_pwd">忘记密码？</a>
+			    </div>
+			    <div class="businessman">
+					<input type="radio" name="select" checked="checked" value="user"/>
+					<label for="">用户</label>
+				</div>
+			    <div class="userbox">
+					<input type="radio" name="select" value="shopkeeper"/>
+					<label for="">商家</label>
+			    </div>
+			    <div class="login">
+		          <input type="button"
+		          class="log" value="登录"/>
+		        </div>
+			</div>
+	    </form>
+	    <!-- 注册框，注册界面 -->
+	    <form>
+	    	<div class="register_frame">
+	    		<div class="u_name">
+			       <input type="text" value=""placeholder="用户名" class="user02" name="username"/>
+			    </div>
+			    <!-- 提示用户名重复 -->
+			    <div class="exist_name user03"></div>
+			    <div class="u_email">
+			       <input type="text" value="" placeholder="邮箱" name="email" class="email"/>
+			    </div>
+			    <!-- 提示邮箱有错 -->
+			    <div class="exist_email"></div>
+			    <div class="u_pwd">
+			       <input type="password" value="" placeholder="密码" class="password02" name="password"/>
+			    </div>
+			    <!-- 提示密码不能为空 -->
+			    <div class="exist_name pwd02"></div>
+			    <div class="businessman">
+					<input type="radio" name="selectType" checked='checked' value="user"/>
+					<label for="">用户</label>
+			    </div>
+			    <div class="userbox">
+					<input type="radio" name="selectType" value="shopkeeper"/>
+					<label for="">商家</label>
+			    </div>
+			    <div class="confirm">
+		          <input type="button"
+		          class="c_frm" value="确认"/>
+		        </div>
+	    	</div>
+
+	    </form>
+	</div>
+	<!-- 弹出重置密码框 -->
+	<div class="reset_pwd alert">
+		<div class="close">
+	        <a href="#" class="cha">×</a>
+	    </div>
+		<h1>重置您的密码</h1>
+		<form>
+	    	<div class="reset_frame">
+	    		<div class="u_email">
+			       <input type="text" value=""placeholder="电子邮箱地址" class="add" name='email'/>
+			    </div>
+			    <!-- 提示邮箱地址有错 -->
+			    <div class="none_email"></div>
+			    <div class="number">
+			       <span>
+			       	 <input type="text" value="" placeholder="验证码" name='checkednum' class="num"/>
+			       </span>
+			       <span>
+			       	 <input type="button" value="获取验证码" class="get_num"/>			    
+			       </span>
+			    </div>
+			    <!-- 提示验证码出错 -->
+			    <div class="wrong_num"></div>
+			    <div class="u_pwd">
+			       <input type="password" value="" placeholder="重置密码" class="rst_pwd" name="password"/>
+			    </div>
+			    <!-- 提示重置密码不能为空 -->
+			    <div class="exist_name pwd03"></div>
+			    <div class="businessman">
+					<input type="radio" name="select_again" checked="checked" value="user"/>
+					<label for="">用户</label>
+			    </div>
+			    <div class="userbox">
+					<input type="radio" name="select_again" value="shopkeeper"/>
+					<label for="">商家</label>
+			    </div>
+			    <div class="confirm">
+		          <input type="button"
+		          class="confirm01" value="确认"/>
+		        </div>
+	    	</div>
+	    </form>
+	</div>
+	<!-- 搜索结果 -->
+	<div class="search_result">
+		<!-- 搜索的内容 -->
+		<div class="s_content">
+			<div class="g_container"></div>
+		</div>
+		<!-- 点击查看详细弹出的框 -->
+		<div class="s-detail">
+			<div class="detail-wrapper">
+				<div class="close-s">×</div>
+				<div class="main_detail">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="grey"></div>
+	<input type="hidden" class='change'/>
+</body>
+</html>

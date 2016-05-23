@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>广州展览</title>
+	<link rel="stylesheet" href="../css/common.css"  type="text/css"/>
+	<link rel="stylesheet" href="../css/user.css"  type="text/css"/>
+	<script src='../js/jquery-2.1.4.min.js'></script>
+	<script type="text/javascript" src='../js/username.js'></script>
+	<script type="text/javascript" src='../js/user.js'></script>
+</head>
+<body>
+	<div class="search">
+  		<div class="search_wrapper">
+  			<div class="close-s">×</div>
+  			<div class="s-align">
+				<input type="text" placeholder='搜索' class="search_text" />
+				<button type='button' class="img_search"></button>
+  			</div>
+  		</div>
+  	</div>
+	<div class="header">
+	  <div class="header-wrapper">
+		<div class="g_container">
+			<div class="logo">
+				<span><a href="first.html"><img src="../img/222.png" alt="" /></a></span>
+			</div>
+			<div class="register">
+				<div class="have-login">
+			    	<img src="../img/name.png" alt="" />
+			    	<!-- 用户的 -->
+			    	<div class="message user_mes">
+			    		<li class="pic_name"><a href="#">我的资料</a></li>
+			    		<li class="favorite"><a href="#">我的收藏</a></li>
+			    		<li class="exit"><a href="logout.php">退出登录</a></li>
+			    	</div>
+			    	<!-- 商家的 -->
+			    	<div class="message busi_mes">
+			    		<li class="pic_name"><a href="#">我的资料</a></li>
+			    		<li class="favorite"><a href="#">我的收藏</a></li>
+			    		<li class='add-acti'><a href="#">上传活动</a></li>
+			    		<li class="exit"><a href="logout.php">退出登录</a></li>
+			    	</div>
+			    </div>
+			</div>
+			<div class="span">|</div>
+			<div class="search_button">
+			</div>
+			<ul class='nav'>
+				<li><a href="exhibition.html">展览</a></li>
+				<li><a href="gongyi.html">公益</a></li>
+				<li><a href="lecture.html">讲座</a></li>
+				<li><a href="recommend.html">精选</a></li>
+			</ul>
+	    </div>
+	  </div>
+	</div>
+	<div class="main">
+		<div class="g_container">
+			<div class="m_left">
+				<div class="resourse">
+					<span></span>
+                    <div class="mine">
+                    	<h1>我的资料</h1>
+                    	<div class="line"></div>
+                    </div>
+				</div>
+				<div class="my_love">
+					<div class="title">
+						<span></span>
+						 <div class="mine">
+	                    	<h1>我的收藏</h1>
+	                    	<div class="line"></div>
+	                    </div>
+					</div>
+					<ul>
+						<li class="love_1">展览收藏</li>
+						<li class="love_2">公益收藏</li>
+						<li class="love_3">讲座收藏</li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="m_right">
+				<div class="top">
+				  <div class="infor">
+					<ul>
+						<li>
+							<label for="">用户名 ：</label>
+							<div class="edit_text">
+								<div class="before s_1">
+									<label for="" class="new_name"></label>
+							        <button class='change_name' type="button"></button>
+								</div>
+								<div class="later appear01">
+									<span><input type="text" class="p_text"/></span>
+									<span class="same_name"></span>
+								</div>
+							</div>
+							
+						</li>
+						<li class="my_email">
+							<label for=""><span>邮</span>箱 ：</label>
+							<div class="edit_text">
+								<div class="before s_2">
+									<label for="" class="new_email">
+									
+									</label>
+									<button class='change_email' type="button"></button>
+								</div>
+								<div class="later appear02">
+									<span><input type="text" class="p_email"/></span><span class="add_correct"></span>
+								</div>
+							</div>
+						</li>
+						<li class="my_sure">
+							<input type="button" value="确定" class="btn_sure"/>
+						</li>
+					</ul>
+				  </div>
+				</div>
+				<div class="favorite_pic">
+					<ul>
+					</ul>
+				</div>
+				<!-- 点击查看详细 -->
+				<div class="detail01">
+					<div class="detail-wrapper01">
+						<div class="close-s">×</div>
+						<div class="main_detail01">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 搜索结果 -->
+	<div class="search_result">
+		<!-- 搜索的内容 -->
+		<div class="s_content">
+			<div class="g_container"></div>
+		</div>
+		<!-- 点击查看详细弹出的框 -->
+		<div class="s-detail">
+			<div class="detail-wrapper">
+				<div class="close-s">×</div>
+				<div class="main_detail">
+				</div>
+			</div>
+		</div>
+	</div>
+	<input type="hidden" class='change' />
+</body>
+</html>
+
